@@ -1,0 +1,33 @@
+.fullWrongPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.fullWrongPage_buttonsFull {
+  display: flex;
+}
+
+.fullWrongPage_buttons {
+  padding: 2rem 3rem;
+  margin: 1rem;
+  background-color: #9055FF;
+  border-radius: .25rem;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: var(--font-family-Inter);
+}
+
+.fullWrongPage_title {
+  font-size: 5rem;
+  font-family: var(--font-family-Montreal);
+  margin-bottom: 5rem;
+}
+
+.fullWrongPage_special {
+  font-weight: 700;
+}
