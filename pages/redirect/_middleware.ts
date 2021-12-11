@@ -23,6 +23,6 @@ export function middleware(req: NextRequest) {
   }
 
   if (browserName !== 'chrome' || 'safari' || 'edge' || 'firefox') {
-    return NextResponse.redirect("/unsupported_browser/demo")
+    return NextResponse.redirect("/browser_not_supported/demo")
   }
 }
