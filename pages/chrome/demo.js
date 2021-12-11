@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Demo = () => {
+const demo = () => {
   return (
     <div>
-      <p>This is chrome</p>
+      <p>this is chrome</p>
     </div>
   )
 }
 
-export default Demo
+export default demo

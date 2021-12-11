@@ -1,15 +1,11 @@
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import React from 'react'
 
-export default function Home() {
+const index = () => {
   return (
-    <div className={styles.container}>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
+    <div>
+      <p>test</p>
     </div>
   )
 }
+
+export default index

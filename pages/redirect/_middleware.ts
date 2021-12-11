@@ -1,6 +1,6 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 
-export function middleware(req) {
+export function middleware(req: NextRequest) {
   console.log('This is run at the edge!!!')
 
   const browserName = req.ua.browser.name?.toLowerCase() || 'Safari'
