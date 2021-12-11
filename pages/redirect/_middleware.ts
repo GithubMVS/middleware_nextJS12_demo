@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server'
 export function middleware(req: NextRequest) {
   console.log('This is run at the edge!!!')
 
-  const browserName = req.ua.browser.name?.toLowerCase() || 'Safari'
+  const browserName = req.ua.browser.name?.toLowerCase()
   console.log(browserName)
 
   if (browserName === 'chrome') {
