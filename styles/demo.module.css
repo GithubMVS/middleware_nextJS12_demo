@@ -1,0 +1,17 @@
+.full {
+  padding: 0rem 20rem;
+  background-color: var(--backgroundColor);
+  height: 100vh;
+}
+
+.full_title {
+  padding: 10rem 0rem 5rem 0rem;
+  font-size: 4rem;
+  color: var(--colorBlack);
+  font-family: var(--font-family-Montreal);
+  font-weight: 400;
+}
+
+.full_title_special {
+  font-weight: 700;
+}

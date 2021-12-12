@@ -1,0 +1,59 @@
+.middleware_demo_indexFull {
+  padding: 0rem 20rem;
+  background-color: var(--backgroundColor);
+  height: 100vh;
+}
+
+.goBack__full {
+  display: flex;
+  align-items: center;
+}
+
+.links_learnMore {
+  text-decoration: none;
+  font-family: var(--font-family-Montreal);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 1.5rem;
+  padding: 5rem 0rem;
+  color: var(--colorPurple);
+}
+
+.middleware_demo_indexFull_title {
+  padding-bottom: 5rem;
+  font-size: 5rem;
+  color: var(--colorBlack);
+  font-family: var(--font-family-Montreal);
+  font-weight: 700;
+}
+
+.middleware_demo_indexFull_text {
+  color: var(--colorGrey);
+  font-family: var(--font-family-Inter);
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  width: 80%;
+  padding-bottom: 7.5rem;
+  text-align: center;
+}
+
+.middleware_demo_indexFull_button {
+  padding: 2.5rem;
+  background-color: var(--colorPurple);
+  font-family: var(--font-family-Inter);
+  font-size: 1.75rem;
+  color: white;
+  border: .5rem solid var(--colorPurple);
+  border-radius: .5rem;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.middleware_demo_explenation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+}
