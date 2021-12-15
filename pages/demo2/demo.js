@@ -1,5 +1,9 @@
 import React from 'react'
 
+export const getServerSideProps = ({ query }) => ({
+  props: query,
+})
+
 export default function demo({ country, latitude, longitude, city, region }) {
 
   country = decodeURIComponent(country)
