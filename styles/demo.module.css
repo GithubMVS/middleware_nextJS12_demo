@@ -21,6 +21,70 @@
   padding: 0rem 1.25rem
 }
 
+/* demo 2 and 3 */
+
+.demo_title {
+  font-size: 4rem;
+  font-family: var(--font-family-Montreal);
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+.demo_showed_full {
+  margin: 5rem 0rem;
+}
+
+.demo_showed_full_text {
+  font-size: 2rem;
+  font-family: var(--font-family-Inter);
+  font-weight: 400;
+  color: var(--colorPurple);
+  padding: 1rem 0rem;
+}
+
+.demo_showed_full_text_special {
+  color: var(--colorBlack);
+  font-weight: 700;
+}
+
+.demo_explenation {
+  font-size: 2rem;
+  padding-top: 3rem;
+  line-height: 3rem;
+  width: 40%;
+  color: var(--colorGrey);
+  font-family: var(--font-family-Inter);
+}
+
+.demo_showed_full_title {
+  font-size: 3rem;
+  font-family: var(--font-family-Inter);
+  padding-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* demo 2 and 3 --- list*/
+.ideas_full_title {
+  font-size: 2.5rem;
+  font-family: var(--font-family-Inter);
+  padding-bottom: 1.5rem;
+  font-weight: 700;
+  color: var(--colorPurple)
+}
+
+.ideas {
+  margin-left: 5rem;
+}
+
+.idea {
+  font-size: 2rem;
+  font-family: var(--font-family-Inter);
+  padding-bottom: 2rem;
+  font-weight: 400;
+  color: var(--colorBlack);
+  list-style-type: circle;
+}
+
 @media screen and (max-width: 1280px) {
   .full_title {
     padding: 0rem;

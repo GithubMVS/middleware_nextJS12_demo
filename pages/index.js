@@ -16,14 +16,14 @@ const index = () => {
       <div className={styles.middleware_demo_explenation}>
         <div>
           <h1 className={styles.middleware_demo_indexFull_title}>Middleware demos</h1>
-          <p className={styles.middleware_demo_indexFull_text}>These middleware demos will show you a glimps of what you can do with middleware, In every demo there is also a small explenation what is further possible to do on your on with each of these demo's. These are some small projects for more demo’s visit: https://vercel.com/features/edge-functions.</p>
+          <p className={styles.middleware_demo_indexFull_text}>These middleware demos will show you a glimps of what you can do with middleware, In every demo there is also a small explenation and what you can further do on your own with each of these demo's. These are some small projects for more demo’s visit: https://vercel.com/features/edge-functions.</p>
         </div>
 
         <div className={styles.demos}>
           <div className={styles.demosPartOne}>
             <div className={styles.demo_each}>
               <h1 className={styles.demo_each_title}>Browser detection</h1>
-              <p className={styles.demo_each_text}>This demo will automatically redirect you to a page that tells you which browser you are using.</p>
+              <p className={styles.demo_each_text}>This demo will automatically redirect you to a page that tells you which browser you are on. Using redirect in middleware</p>
               <Link href="/browserDetectionDemo/redirect/demo">
                 <div className={styles.demo_each_link}>
                   <Image src={goBack} />
@@ -34,7 +34,7 @@ const index = () => {
 
             <div className={styles.demo_each}>
               <h1 className={styles.demo_each_title}>Location detection</h1>
-              <p className={styles.demo_each_text}>small explenation</p>
+              <p className={styles.demo_each_text}>This middleware demo will show you your: country, city, latitude, longitude and region. Using request in middleware.</p>
               <Link href="/demo2/demo">
                 <div className={styles.demo_each_link}>
                   <Image src={goBack} />
@@ -57,8 +57,8 @@ const index = () => {
             </div>
 
             <div className={styles.demo_each}>
-              <h1 className={styles.demo_each_title}>Countdown opening</h1>
-              <p className={styles.demo_each_text}>small explenation</p>
+              <h1 className={styles.demo_each_title}>My own small project</h1>
+              <p className={styles.demo_each_text}>This is a small countdown that will open a page (could be a shop for example) when the countdown finishes</p>
               <Link href="/demo4/demo">
                 <div className={styles.demo_each_link}>
                   <Image src={goBack} />
