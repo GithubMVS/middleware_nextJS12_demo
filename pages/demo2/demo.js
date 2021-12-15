@@ -1,5 +1,7 @@
 import React from 'react'
 
+import styles from "../demo2/demo.module.css"
+
 export const getServerSideProps = ({ query }) => ({
   props: query,
 })
