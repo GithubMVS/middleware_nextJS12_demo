@@ -4,13 +4,21 @@ export const getServerSideProps = ({ query }) => ({
   props: query,
 })
 
-export default function demo({ country, browser }) {
+export default function demo({ country, latitude, longitude, city, region }) {
+
   country = decodeURIComponent(country)
-  browser = decodeURIComponent(browser)
+  latitude = decodeURIComponent(latitude)
+  longitude = decodeURIComponent(longitude)
+  city = decodeURIComponent(city)
+  region = decodeURIComponent(region)
+
   return (
     <div>
       <p>{country}</p>
-      <p>{browser}</p>
+      <p>{latitude}</p>
+      <p>{longitude}</p>
+      <p>{city}</p>
+      <p>{region}</p>
     </div>
   )
 }

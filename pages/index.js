@@ -33,7 +33,7 @@ const index = () => {
             </div>
 
             <div className={styles.demo_each}>
-              <h1 className={styles.demo_each_title}>Demo 2</h1>
+              <h1 className={styles.demo_each_title}>Location detection</h1>
               <p className={styles.demo_each_text}>small explenation</p>
               <Link href="/demo2/demo">
                 <div className={styles.demo_each_link}>
@@ -57,7 +57,7 @@ const index = () => {
             </div>
 
             <div className={styles.demo_each}>
-              <h1 className={styles.demo_each_title}>Demo 4</h1>
+              <h1 className={styles.demo_each_title}>Countdown opening</h1>
               <p className={styles.demo_each_text}>small explenation</p>
               <Link href="/demo4/demo">
                 <div className={styles.demo_each_link}>
