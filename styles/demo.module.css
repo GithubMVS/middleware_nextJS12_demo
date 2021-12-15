@@ -20,3 +20,40 @@
   font-weight: 700;
   padding: 0rem 1.25rem
 }
+
+@media screen and (max-width: 1280px) {
+  .full_title {
+    padding: 0rem;
+  }
+
+  .full {
+    padding: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .full {
+    padding: 0rem 7.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .full {
+    padding: 0rem 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .full {
+    padding: 0rem 3rem;
+  }
+
+  .full_title {
+    font-size: 2rem;
+    height: 70vh;
+  }
+
+  .full_title_special {
+    padding: 0rem 0.75rem;
+  }
+}

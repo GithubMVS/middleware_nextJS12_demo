@@ -8,7 +8,7 @@ const demo = () => {
   return (
     <div className={styles.full}>
       <GoBack />
-      <p className={styles.full_title}>this is <span className={styles.full_title_special}>not</span> supported</p>
+      <p className={styles.full_title}>this is browser is <span className={styles.full_title_special}>not</span> supported</p>
     </div>
   )
 }

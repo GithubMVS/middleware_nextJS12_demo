@@ -23,4 +23,5 @@ export async function middleware(req: NextRequest) {
   if (browserName !== 'chrome' || 'safari' || 'edge' || 'firefox') {
     return NextResponse.redirect("/browserDetectionDemo/browser_not_supported/demo")
   }
+
 }
