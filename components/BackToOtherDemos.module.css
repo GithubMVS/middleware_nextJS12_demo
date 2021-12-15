@@ -1,0 +1,13 @@
+.goBack_full {
+  display: flex;
+  align-items: center;
+}
+
+.goBack_full_text {
+  padding: 5rem 0rem;
+  font-size: 2rem;
+  font-family: var(--font-family-Inter);
+  font-weight: 700;
+  margin-left: 1.5rem;
+  color: var(--colorPurple);
+}

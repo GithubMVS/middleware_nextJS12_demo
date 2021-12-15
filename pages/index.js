@@ -14,9 +14,60 @@ const index = () => {
         <Link href="https://passion-project-2021-2022.vercel.app/"><a className={styles.links_learnMore}>See other demos</a></Link>
       </div>
       <div className={styles.middleware_demo_explenation}>
-        <h1 className={styles.middleware_demo_indexFull_title}>Middleware demo</h1>
-        <p className={styles.middleware_demo_indexFull_text}>This middleware demo will show you a glimps of what browser optemization could look like. But to put it in a more simple way: this demo will redirect you to a page that is optimized based on which browser you currently using; so you can have the best performance at anytime no matter what browser you are using all while you don't have to do a thing!</p>
-        <Link href="/redirect/demo"><a className={styles.middleware_demo_indexFull_button}>go to specialised browser</a></Link>
+        <div>
+          <h1 className={styles.middleware_demo_indexFull_title}>Middleware demos</h1>
+          <p className={styles.middleware_demo_indexFull_text}>These middleware demos will show you a glimps of what you can do with middleware, In every demo there is also a small explenation what is further possible to do on your on with each of these demo's. These are some small projects for more demo’s visit: https://vercel.com/features/edge-functions.</p>
+        </div>
+
+        <div className={styles.demos}>
+          <div className={styles.demosPartOne}>
+            <div className={styles.demo_each}>
+              <h1 className={styles.demo_each_title}>Browser detection</h1>
+              <p className={styles.demo_each_text}>This demo will automatically redirect you to a page that tells you which browser you are using.</p>
+              <Link href="/browserDetectionDemo/redirect/demo">
+                <div className={styles.demo_each_link}>
+                  <Image src={goBack} />
+                  <p className={styles.demo_each_link_text}>Try Demo</p>
+                </div>
+              </Link>
+            </div>
+
+            <div className={styles.demo_each}>
+              <h1 className={styles.demo_each_title}>Demo 2</h1>
+              <p className={styles.demo_each_text}>small explenation</p>
+              <Link href="/demo2/demo">
+                <div className={styles.demo_each_link}>
+                  <Image src={goBack} />
+                  <p className={styles.demo_each_link_text}>Try Demo</p>
+                </div>
+              </Link>
+            </div>
+          </div>
+
+          <div className={styles.demosPartTwo}>
+            <div className={styles.demo_each}>
+              <h1 className={styles.demo_each_title}>Demo 3</h1>
+              <p className={styles.demo_each_text}>small explenation</p>
+              <Link href="/demo3/demo">
+                <div className={styles.demo_each_link}>
+                  <Image src={goBack} />
+                  <p className={styles.demo_each_link_text}>Try Demo</p>
+                </div>
+              </Link>
+            </div>
+
+            <div className={styles.demo_each}>
+              <h1 className={styles.demo_each_title}>Demo 4</h1>
+              <p className={styles.demo_each_text}>small explenation</p>
+              <Link href="/demo4/demo">
+                <div className={styles.demo_each_link}>
+                  <Image src={goBack} />
+                  <p className={styles.demo_each_link_text}>Try Demo</p>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

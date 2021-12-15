@@ -10,8 +10,13 @@
   color: var(--colorBlack);
   font-family: var(--font-family-Montreal);
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
 }
 
 .full_title_special {
   font-weight: 700;
+  padding: 0rem 1.25rem
 }

@@ -35,7 +35,7 @@
   line-height: 3.5rem;
   width: 80%;
   padding-bottom: 7.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .middleware_demo_indexFull_button {
@@ -51,9 +51,125 @@
 }
 
 .middleware_demo_explenation {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
   height: 85%;
+}
+
+.demos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3.5rem;
+}
+
+.demosPartTwo {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 3.5rem;
+}
+
+.demosPartOne {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 3.5rem;
+}
+
+.demo_each {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: white;
+  border-radius: .75rem;
+  font-family: var(--font-family-Montreal);
+}
+
+.demo_each_title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #16161E;
+}
+
+.demo_each_text {
+  color: #888C98;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+.demo_each_link {
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.demo_each_link_text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--colorPurple);
+  margin-left: 1.5rem;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .middleware_demo_indexFull {
+    padding: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .middleware_demo_indexFull {
+    padding: 0rem 7.5rem;
+  }
+
+  .middleware_demo_explenation {
+    grid-template-columns: 1fr;
+    height: 35%;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .middleware_demo_indexFull {
+    padding: 0rem 5rem;
+  }
+
+  .middleware_demo_explenation {
+    grid-template-columns: 1fr;
+    height: 75vh;
+    margin-top: 0rem;
+  }
+
+  .middleware_demo_indexFull_text {
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .middleware_demo_indexFull {
+    padding: 0rem 3rem;
+  }
+
+  .middleware_demo_indexFull_title {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .middleware_demo_indexFull_text {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    width: 100%;
+  }
+
+  .demos {
+    grid-template-columns: 1fr;
+  }
+
+  .demosPartTwo {
+    margin: 3rem 0rem;
+  }
 }
