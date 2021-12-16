@@ -1,4 +1,4 @@
-import styles from "../demo4_countdown/secret_page/countDown.module.css"
+import styles from "../demo4_countdown/countDown.module.css"
 
 // go back component
 import GoBack from '../../components/BackToOtherDemos'
