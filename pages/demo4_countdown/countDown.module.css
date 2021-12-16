@@ -1,0 +1,103 @@
+.countDownFull {
+  padding: 0rem 20rem;
+  background-color: var(--backgroundColor);
+  height: 100vh;
+}
+
+.countDown {
+  font-family: var(--font-family-Inter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.countDown_title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.countDown_text {
+  font-size: 7.5rem;
+  font-weight: 300;
+  padding: 5rem 0rem;
+}
+
+.countDown_link {
+  padding: 2rem;
+  border-radius: .5rem;
+  background-color: var(--colorPurple);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--font-family-Inter);
+  margin-top: 3rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .countDown_title {
+    font-size: 2rem;
+  }
+
+  .countDown_text {
+    font-size: 5rem;
+  }
+
+  .countDownFull {
+    padding: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .countDown_title {
+    font-size: 1.75rem;
+  }
+
+  .countDown_text {
+    font-size: 3.5rem;
+    padding: 3rem 0rem;
+  }
+
+  .countDownFull {
+    padding: 0rem 7.5rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .countDownFull {
+    padding: 0rem 5rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .countDownFull {
+    padding: 0rem 3rem;
+  }
+
+  .countDown_title {
+    font-size: 1.5rem;
+  }
+
+  .countDown_text {
+    font-size: 2rem;
+    padding: 2.5rem 0rem;
+  }
+
+  .countDown_link {
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background-color: var(--colorPurple);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--font-family-Inter);
+    text-decoration: none;
+  }
+
+}

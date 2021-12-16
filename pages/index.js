@@ -46,17 +46,6 @@ const index = () => {
 
           <div className={styles.demosPartTwo}>
             <div className={styles.demo_each}>
-              <h1 className={styles.demo_each_title}>Demo 3</h1>
-              <p className={styles.demo_each_text}>small explenation</p>
-              <Link href="/demo3/demo">
-                <div className={styles.demo_each_link}>
-                  <Image src={goBack} />
-                  <p className={styles.demo_each_link_text}>Try Demo</p>
-                </div>
-              </Link>
-            </div>
-
-            <div className={styles.demo_each}>
               <h1 className={styles.demo_each_title}>My own small project</h1>
               <p className={styles.demo_each_text}>This is a small countdown that will open a page (could be a shop for example) when the countdown finishes</p>
               <Link href="/demo4/demo">
